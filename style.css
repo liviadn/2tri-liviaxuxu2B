@@ -1,9 +1,32 @@
 :root {
-    --cor-de-fundo: #e6dfc8;
+    --cor-de-fundo: 	#F98B88;
 }
 body {
     background-color:  var(--cor-de-fundo);
 }
-h1 {
-    background-color: #b8c98f;
+
+.cabecalho {
+    background-color: var(--cor-cabecalho);
+}
+
+.cabecalho-titulo {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+}
+
+.cabecalho-menu {
+    background-color: var(--fundi-menu);
+}
+
+
+.cabecalho-menu-item {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color-scheme: black;
+    text-align: center;
+    border-top: 1px solid;
 }
