@@ -1,5 +1,6 @@
 :root {
-    --cor-de-fundo: 	#F98B88;
+    --cor-de-fundo: 	#B09FCA;
+    
 }
 body {
     background-color:  var(--cor-de-fundo);
@@ -16,17 +17,13 @@ body {
     text-align: center;
 }
 
-.cabecalho-menu {
-    background-color: var(--fundi-menu);
-}
-
 
 .cabecalho-menu-item {
     display: block;
     padding: 10px;
     font-size: 24px;
     text-decoration: none;
-    color-scheme: black;
+    color: black;
     text-align: center;
     border-top: 1px solid;
 }
